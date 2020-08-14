@@ -1,5 +1,9 @@
 //Business Logic
-
+let form1Changed = false;
+let form2Changed = false;
+let form3Changed = false;
+let form4Changed = false;
+let form5Changed = false;
 
 //User Interface Logic
 /*$(document).ready(function() {
@@ -29,7 +33,6 @@
 
 $(document).ready(function() {
   $("#form1").on('change',function() {
-    let form1Changed = false;
     form1Changed = true;
     if (form2Changed && form3Changed && form4Changed && form5Changed) {
       alert("working");
@@ -37,7 +40,6 @@ $(document).ready(function() {
   });
 
   $("#form2").on('change',function() {
-    let form2Changed = false;
     form2Changed = true;
     if (form1Changed && form3Changed && form4Changed && form5Changed) {
       alert("working");
@@ -45,7 +47,6 @@ $(document).ready(function() {
   });
 
   $("#form3").on('change',function() {
-    let form3Changed = false;
     form3Changed = true;
     if (form1Changed && form2Changed && form4Changed && form5Changed) {
       alert("working");
@@ -53,7 +54,6 @@ $(document).ready(function() {
   });
   
   $("#form4").on('change',function() {
-    let form4Changed = false;
     form4Changed = true;
     if (form1Changed && form2Changed && form3Changed && form5Changed) {
       alert("working");
@@ -61,7 +61,6 @@ $(document).ready(function() {
   });
   
   $("#form5").on('change',function() {
-    let form5Changed = false;
     form5Changed = true;
     if (form1Changed && form2Changed && form3Changed && form4Changed) {
       alert("working");

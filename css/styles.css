@@ -1,3 +1,7 @@
 .form-output {
   display: none;
 }
+
+.btn {
+  background-color: light gray;
+}

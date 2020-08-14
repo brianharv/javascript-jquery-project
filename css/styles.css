@@ -1,15 +1,7 @@
-#form-output-ruby {
-  display: none;
+.container {
+  margin: 50px;
 }
 
-#form-output-javascript {
+#form-output {
   display: none;
-}
-
-#form-output-python {
-  display: none;
-}
-
-.btn {
-  background-color: light gray;
 }

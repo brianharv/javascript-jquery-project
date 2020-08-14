@@ -3,38 +3,49 @@ const add =function(number1, number2, number3, number4, number5) {
   return number1 + number2 + number3 + number4 + number5;
 }
 
-let form1Changed = false;
-let form2Changed = false;
-let form3Changed = false;
-let form4Changed = false;
-let form5Changed = false;
+//let form1Changed = false;
+//let form2Changed = false;
+//let form3Changed = false;
+//let form4Changed = false;
+//let form5Changed = false;
 
 //User Interface Logic
-/*$(document).ready(function() {
+$(document).ready(function() {
   $("#form1").change(function() {
-    alert("working1");
+    console.log("working1");
   $("#form2").change(function() {
-    alert("working2");
+    console.log("working2");
   $("#form3").change(function() {
-    alert("working3");
+    console.log("working3");
   $("#form4").change(function() {
-    alert("working4");
+    console.log("working4");
   $("#form5").change(function() {
-    alert("working5");
+    console.log("working5");
   event.preventDefault();
   const number1 = parseInt($("#favfood").val());
   const number2 = parseInt($("#siblings").val());
   const number3 = parseInt($("#favmovie").val());
   const number4 = parseInt($("#pet").val());
   const number5 = parseInt($("#car").val());
+  let result = add(number1, number2, number3, number4, number5);
+    console.log("add working");
+    if (result > 26) {
+      $("#output").text("Ruby");
+    } else if (result < 26 && result > 18) {
+      $("#output").text("C#");
+    } else if (result < 18 && result >= 10) {
+      $("#output").text(".NET");
+    }
+
+  $("#form-output").show();
 
           });
         });
       });
     });
   });
-}); */
-
+}); 
+/*
 $(document).ready(function() {
   $("#form1").on('change',function() {
     const number1 = parseInt($("#favfood").val());
@@ -51,7 +62,11 @@ $(document).ready(function() {
   });
 
   $("#form2").on('change',function() {
+    const number1 = parseInt($("#favfood").val());
     const number2 = parseInt($("#siblings").val());
+    const number3 = parseInt($("#favmovie").val());
+    const number4 = parseInt($("#pet").val());
+    const number5 = parseInt($("#car").val());
     form2Changed = true;
     if (form1Changed && form3Changed && form4Changed && form5Changed) {
       alert("working");
@@ -83,4 +98,4 @@ $(document).ready(function() {
   });
 });    
 
-
+*/

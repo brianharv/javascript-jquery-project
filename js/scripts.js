@@ -1,4 +1,8 @@
 //Business Logic
+const add =function(number1, number2, number3, number4, number5) {
+  return number1 + number2 + number3 + number4 + number5;
+}
+
 let form1Changed = false;
 let form2Changed = false;
 let form3Changed = false;

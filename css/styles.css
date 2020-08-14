@@ -1,4 +1,12 @@
-#form-output {
+#form-output-ruby {
+  display: none;
+}
+
+#form-output-javascript {
+  display: none;
+}
+
+#form-output-python {
   display: none;
 }
 

@@ -37,13 +37,21 @@ let form5Changed = false;
 
 $(document).ready(function() {
   $("#form1").on('change',function() {
+    const number1 = parseInt($("#favfood").val());
+    const number2 = parseInt($("#siblings").val());
+    const number3 = parseInt($("#favmovie").val());
+    const number4 = parseInt($("#pet").val());
+    const number5 = parseInt($("#car").val());
     form1Changed = true;
     if (form2Changed && form3Changed && form4Changed && form5Changed) {
-      alert("working");
+      let result = add(number1, number2, number3, number4, number5);
+      $("#output").text(result);
+      $("form-output").show();
     }
   });
 
   $("#form2").on('change',function() {
+    const number2 = parseInt($("#siblings").val());
     form2Changed = true;
     if (form1Changed && form3Changed && form4Changed && form5Changed) {
       alert("working");
@@ -51,6 +59,7 @@ $(document).ready(function() {
   });
 
   $("#form3").on('change',function() {
+    const number3 = parseInt($("#favmovie").val());
     form3Changed = true;
     if (form1Changed && form2Changed && form4Changed && form5Changed) {
       alert("working");
@@ -58,6 +67,7 @@ $(document).ready(function() {
   });
   
   $("#form4").on('change',function() {
+    const number4 = parseInt($("#pet").val());
     form4Changed = true;
     if (form1Changed && form2Changed && form3Changed && form5Changed) {
       alert("working");
@@ -65,9 +75,12 @@ $(document).ready(function() {
   });
   
   $("#form5").on('change',function() {
+    const number5 = parseInt($("#car").val());
     form5Changed = true;
     if (form1Changed && form2Changed && form3Changed && form4Changed) {
       alert("working");
     }
   });
 });    
+
+

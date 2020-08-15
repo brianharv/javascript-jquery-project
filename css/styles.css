@@ -1,5 +1,9 @@
-.container {
+.container design {
   margin: 50px;
+}
+
+.parent-color {
+  text-align: center;
 }
 
 #form-output {

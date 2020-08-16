@@ -2,20 +2,38 @@
   margin: 50px;
 }
 
+.navbar {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
 .main-text {
   margin: 50px;
 }
 
 .header-text {
   text-align: center;
+  padding: 5px;
+}
+
+hr {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 75%;
 }
 
 .jumbotron {
+  color: white;
   font-family: helvetica;
   font-weight: lighter;
+  font-size: 1.2rem;
   padding-top: 20px;
   padding-bottom: 5px;
+  background-color: lightslategray;
+  margin-right: 50px;
+  
 }
+
 
 #form-output {
   display: none;

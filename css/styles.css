@@ -2,8 +2,19 @@
   margin: 50px;
 }
 
-.parent-color {
+.main-text {
+  margin: 50px;
+}
+
+.header-text {
   text-align: center;
+}
+
+.jumbotron {
+  font-family: helvetica;
+  font-weight: lighter;
+  padding-top: 20px;
+  padding-bottom: 5px;
 }
 
 #form-output {

@@ -1,4 +1,4 @@
-.container design {
+.container-fluid {
   margin: 50px;
 }
 
@@ -8,4 +8,11 @@
 
 #form-output {
   display: none;
+}
+
+#logo {
+  max-width: 20%;
+  height: auto;
+  margin: 10px;
+  padding: 5px;
 }

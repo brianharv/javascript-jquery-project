@@ -8,7 +8,11 @@
 }
 
 .main-text {
+  place-content: center;
   margin: 50px;
+  font-size: larger;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .header-text {
@@ -34,6 +38,15 @@ hr {
   
 }
 
+#curious {
+  width: 20%;
+  height: auto;
+  float: left;
+  padding: 2px;
+  border: solid lightslategray;
+  margin: 8px;
+}
+
 
 #form-output {
   display: none;
@@ -44,4 +57,14 @@ hr {
   height: auto;
   margin: 10px;
   padding: 5px;
+}
+
+.row2 {
+  margin-left: 50px;
+}
+
+.row3 {
+  text-align: center;
+  margin: 50px;
+  font-size: larger;
 }

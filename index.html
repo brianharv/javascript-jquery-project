@@ -46,10 +46,11 @@
   </div>
   <div class="container-fluid">
     <div class="row 1">
-      <div class="col-12">
+      <div class="col-10">
         <div class="main-text">
           <h1 class= "header-text">Which Code Language are You?</h1>
           <hr>
+          <img id="curious" src="img/curious.jpeg" alt="A photo of a woman with many question marks over their head.">
           <p class="body-text">Choosing a code language can be tough. There are so many options, but which one is 
           right for you? Do you want to become a master front-end designer and show off your flair 
           to viewers from all over the world? Or maybe you would rather manage and protect the flow of data 
@@ -62,82 +63,91 @@
         </div>
       </div> 
     </div>
-  </div>       
+  </div>   
     <!--Form 1-->
-    <form id="form1">
-      <div class="form-group">
-        <label for="favfood-form">Which of these foods is your favorite?</label>
-        <select class="custom-select" id="favfood">
-          <option value="1" selected>---</option>
-          <option value="2">Pizza</option>
-          <option value="3">Hamburger</option>
-          <option value="4">Street Taco</option>
-          <option value="5">Cobb Salad</option>
-          <option value="6">Dim Sum</option>
-        </select>
+  <div class="container-fluid">
+    <div class="row 2">
+      <div class="col-6">
+        <form id="form1">
+          <div class="form-group">
+            <label for="favfood-form">Which of these foods is your favorite?</label>
+            <select class="custom-select" id="favfood">
+              <option value="1" selected>---</option>
+              <option value="2">Pizza</option>
+              <option value="3">Hamburger</option>
+              <option value="4">Street Taco</option>
+              <option value="5">Cobb Salad</option>
+              <option value="6">Dim Sum</option>
+            </select>
+          </div>  
+        </form>
+        <!--Form2-->
+        <form id="form2">
+          <div class="form-group">
+            <label for="siblings-form">How many siblings do you have?</label>
+            <select class="custom-select" id="siblings">
+              <option value="1" selected>---</option>
+              <option value="2">0</option>
+              <option value="3">1</option>
+              <option value="4">2</option>
+              <option value="5">3</option>
+              <option value="6">4+</option>
+            </select>
+          </div>
+        </form>
+        <!--Form 3-->
+        <form id="form3">
+          <div class="form-group">
+            <label for="favmovie-form">What is your favorite kind of movie?</label>
+            <select class="custom-select" id="favmovie">
+              <option value="1" selected>---</option>
+              <option value="2">Comedy</option>
+              <option value="3">Drama</option>
+              <option value="4">Action & Adventure</option>
+              <option value="5">Horror</option>
+              <option value="6">Family</option>
+            </select>
+          </div>
+        </form>
+        <!--Form 4-->
+        <form id="form4">
+          <div class="form-group">
+            <label for="pet-form">Select the pet best suited for you.</label>
+            <select class="custom-select" id="pet">
+              <option value="1" selected>---</option>
+              <option value="2">Dog</option>
+              <option value="3">Cat</option>
+              <option value="4">Bird</option>
+              <option value="5">Other</option>
+              <option value="6">None</option>
+            </select>
+          </div>
+        </form>
+        <!--Form 5-->
+        <form id="form5">
+          <div class="form-group">
+            <label for="car-form">What kind of car best describes you?</label>
+            <select class="custom-select" id="car">
+              <option value="1" selected>---</option>
+              <option value="2">Truck</option>
+              <option value="3">SUV</option>
+              <option value="4">Vintage</option>
+              <option value="5">Hybrid</option>
+              <option value="6">None! I'm a bike!</option>
+            </select>
+          </div>
+        </form>
+      </div>
+    </div>    
+  </div>
+  <div class="container-fluid">
+    <div class="row3">
+      <div class="col-10">
+        <div id="form-output">
+          <p><strong>Your perfect match is: <span id="output"></span>!</strong></p>
+        </div>
       </div>  
-    </form>
-    <!--Form2-->
-    <form id="form2">
-      <div class="form-group">
-        <label for="siblings-form">How many siblings do you have?</label>
-        <select class="custom-select" id="siblings">
-          <option value="1" selected>---</option>
-          <option value="2">0</option>
-          <option value="3">1</option>
-          <option value="4">2</option>
-          <option value="5">3</option>
-          <option value="6">4+</option>
-        </select>
-      </div>
-    </form>
-    <!--Form 3-->
-    <form id="form3">
-      <div class="form-group">
-        <label for="favmovie-form">What is your favorite kind of movie?</label>
-        <select class="custom-select" id="favmovie">
-          <option value="1" selected>---</option>
-          <option value="2">Comedy</option>
-          <option value="3">Drama</option>
-          <option value="4">Action & Adventure</option>
-          <option value="5">Horror</option>
-          <option value="6">Family</option>
-        </select>
-      </div>
-    </form>
-    <!--Form 4-->
-    <form id="form4">
-      <div class="form-group">
-        <label for="pet-form">Select the pet best suited for you.</label>
-        <select class="custom-select" id="pet">
-          <option value="1" selected>---</option>
-          <option value="2">Dog</option>
-          <option value="3">Cat</option>
-          <option value="4">Bird</option>
-          <option value="5">Other</option>
-          <option value="6">None</option>
-        </select>
-      </div>
-    </form>
-    <!--Form 5-->
-    <form id="form5">
-      <div class="form-group">
-        <label for="car-form">What kind of car best describes you?</label>
-        <select class="custom-select" id="car">
-          <option value="1" selected>---</option>
-          <option value="2">Truck</option>
-          <option value="3">SUV</option>
-          <option value="4">Vintage</option>
-          <option value="5">Hybrid</option>
-          <option value="6">None! I'm a bike!</option>
-        </select>
-      </div>
-    </form>
-    <div id="form-output">
-      <p><strong>Your perfect match is: <span id="output"></span>!</strong></p>
     </div>
-      
-  
   </div>
 </body>
 </html>

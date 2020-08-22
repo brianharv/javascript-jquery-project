@@ -2,7 +2,7 @@
 
 #### _Programming Language Suggester, 8/14/20_
 
-#### By _Brian Havey_
+#### By _Brian Harvey_
 
 ## Description
 
@@ -10,6 +10,7 @@ _An application that collects user information and returns a suggestion as to wh
 
 ## Setup/Installation Requirements
 
+* _Retrieve from GitHub_
 * _Open html in browser_
 
 ## Known Bugs
@@ -25,6 +26,7 @@ _For any questions, concerns or feedback feel free to [contact me](mailto:brian.
 * _HTML_
 * _CSS_
 * _JQuery_
+* _Javascript_
 * _Bootstrap_
 
 ### License
